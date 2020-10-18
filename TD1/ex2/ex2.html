@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex2</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+</head>
+
+<body>
+    <h1>Bienvenue sur mon site</h1>
+    <p>Vous y trouverez :</p>
+    <ul>
+        <li>un lien vers google.fr</li>
+        <li>un lien pour telecharger notepad++</li>
+        <li>une image cliquable pour aller sur le site meteo france</li>
+    </ul>
+    <p>Bon surf !</p>
+    <hr />
+    <p>
+        Aller sur google.fr <a href="www.google.fr">ici</a><br /> Telecharger <a href="">Notepad++</a> un bon editeur de page html
+    </p>
+    <p>Pour acceder au site de meteo france cliquez sur l'image</p>
+    <img src="./meteo.png" alt="" usemap="#meteo" />
+
+    <map name="meteo">
+        <area shape="poly" coords="150,145,124,171,140,187,171,187,170,152"
+            href="https://meteofrance.com/previsions-meteo-france/centre-val-de-loire/7" alt="meteo centre"
+            target="blank">
+        <area shape="rect" coords="0,0,318,43" href="https://meteofrance.com/" alt="meteo france" target="blank">
+        <area shape="circle" coords="172,131,15" href="https://meteofrance.com/previsions-meteo-france/paris/75000"
+            alt="meteo paris" target="blank">
+    </map>
+
+    <ul>
+        <li><b>Pour acceder au site de meteo france cliquez sur la partie supérieure de l'image</b> </li>
+        <li><b>Pour acceder aux previsions region centre cliquez sur la carte sur la zone centre</b> </li>
+        <li><b>Pour acceder aux previsions region île de france cliquez sur la carte sur la zone "ile de france"</b>
+        </li>
+    </ul>
+</body>
+
+</html>

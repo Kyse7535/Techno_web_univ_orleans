@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex1</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style768.css">
+    <link rel="stylesheet" href="style_inf767.css">
+</head>
+
+<body>
+    <h1 class="msg">Site non adapte a votre terminal de connexion</h1>
+    <header>
+        <div class="logo">
+            <img src="./logo.bmp" alt="image" />
+        </div>
+        <nav>
+            <ul>
+                <li>catalogue des produits</li>
+                <li>promotions du moment</li>
+                <li>service après vente</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+
+        <div class="icone">
+            <img src="img.bmp" alt="image" usemap="#icone" />
+        </div>
+    </header>
+    <aside>
+        <article class="bulle">
+            <h5>Promotion apple !</h5>
+            <div class="image">
+                <img src="./mac.jpg" alt="img" />
+                <p>
+                    <strong>Apple MacBook Pro 13,3'' LED 500 Go 4 Go RAM Intel Core i5 bicœur
+              à 2,5 GHz SuperDrive MD101. A partir de 1000 Euros.</strong
+            >
+          </p>
+        </div>
+      </article>
+      <article class="bulle">
+        <h5>Arrivage disques dures</h5>
+        <div class="image">
+          <img src="./dd.jpg" alt="img" />
+          <p>
+            <strong
+              >Arrivage de plusieurs 2To Western Digital, Lacie, Maxtor.
+              Garantie 2 ans et éxtensible à 5 ans. 149,90 Euros.</strong
+            >
+          </p>
+        </div>
+      </article>
+      <article class="bulle">
+        <h5>Destockge cle usb</h5>
+        <div class="image">
+          <img src="./cleusb.jpg" alt="img" />
+          <p>
+            <strong
+              >Promotion du moment : une clé USB offerte pour tout achat
+              supérieur à 100 Euros. Saisir le code PXSDEZSC.</strong
+            >
+          </p>
+        </div>
+      </article>
+      <article class="bulle">
+        <h5>-30% sur les cartes SD</h5>
+        <div class="image">
+          <img src="./sd.jpg" alt="img" />
+          <p>
+            <strong
+              >Toutes nos cartes SD et micro SD sont affichées à -30%. Plusieurs
+              granques marques disponibles : Kingstom, sanDisk, Samsung.</strong
+            >
+          </p>
+        </div>
+      </article>
+    </aside>
+    <div class="centrale">
+      <form action="">
+        <fieldset>
+          <legend>Informations personnelles</legend>
+          <p><label for="prenom">Prenom : </label>
+          <input required type="text" id="prenom"></p>
+          <p><label for="nom">Nom : </label>
+          <input required type="text" name="nom" id="nom"></p>
+          <p>
+            <label for="sexe">sexe : </label>
+            <input required type="text" name="sexe" id="sexe">
+          </p>
+
+          <p>
+            <label for="date">Date de naissance : </label>
+            <input required type="text" name="date" id="date">
+          </p>
+
+          <p>
+            <label for="adresse">Adresse : </label>
+            <input required type="text" name="adresse" id="adresse">
+          </p>
+
+          <p>
+            <label for="cp">Code postal : </label>
+            <input required type="number" name="" id="cp">
+          </p>
+
+          <p>
+            <label for="ville">Ville : </label>
+            <input required type="text" name="ville" id="ville">
+          </p>
+
+          <p>
+            <label for="Pays">Pays : </label>
+            <input required type="text" name="pays" id="Pays">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Compte</legend>
+          <p>
+            <label for="Identifiant">Identifiant : </label>
+          <input required type="text" name="Identifiant" id="Identifiant">
+          </p>
+
+          <p>
+            <label for="Mdp">Mot de passe : </label>
+            <input required type="text" name="Mdp" id="Mdp">
+          </p>
+
+          <p>
+            <label for="mail">Adresse mail : </label>
+            <input required type="text" name="mail" id="mail">
+          </p>
+
+          <p>
+            <label for="question">Question secrete : </label>
+            <input required type="text" name="question" id="question">
+          </p>
+
+          <p>
+            <label for="reponse">Reponse : </label>
+            <input required type="text" name="reponse" id="reponse">
+          </p>
+        </fieldset>
+        <p>
+          <label class="pas_de_style">&nbsp </label>
+          <input type="submit" value="Envoyer">
+          <input type="reset" value="Effacer">
+        </p>
+      </form>
+    </div>
+<footer></footer>
+  </body>
+</html>

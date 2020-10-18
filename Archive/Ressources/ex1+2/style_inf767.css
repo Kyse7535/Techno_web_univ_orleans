@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .msg {
+        display: block;
+    }
+    header,
+    .centrale,
+    aside,
+    footer {
+        display: none;
+    }
+}

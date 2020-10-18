@@ -1,0 +1,181 @@
+@media (min-width: 1366px) {
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .msg {
+        display: none;
+    }
+    body {
+        background-color: #f1f4f9;
+    }
+    p {
+        text-align: justify;
+    }
+    h5 {
+        color: #acc0d7;
+        font-size: 15px;
+        margin: 15px 0 0 15px;
+    }
+    strong {
+        font-size: 15px;
+        color: #414a51;
+    }
+    header,
+    footer {
+        height: 12%;
+        background-color: #09c;
+        width: 100%;
+    }
+    .logo {
+        margin-left: 8%;
+    }
+    ul {
+        margin: 0 0 0 8%;
+        width: 100%;
+    }
+    header li {
+        list-style-type: none;
+        color: #fff;
+        font-family: Comic Sans MS;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    header li:hover {
+        color: #2d3e4a;
+    }
+    header li::after {
+        content: ".";
+        font-size: 20px;
+        color: #237dac;
+        margin: 15px;
+    }
+    .icone {
+        margin-left: 7%;
+    }
+    .logo,
+    .icone,
+    nav,
+    ul,
+    li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    aside {
+        position: absolute;
+        right: 5%;
+        width: 24%;
+        margin-top: 20px;
+        max-width: 328px;
+    }
+    .bulle {
+        background-color: #fff;
+        border: 1px solid #f1f4f9;
+        color: #414a51;
+        border-radius: 10px;
+        padding: 0 20px 20px 0;
+        margin-bottom: 30px;
+    }
+    .bulle h5 {
+        color: #acc0d7;
+        font-size: 15px;
+        margin: 0 15px;
+    }
+    .bulle img {
+        float: left;
+        margin: 10px;
+    }
+    .centrale {
+        background-color: #fff;
+        margin-left: 8%;
+        padding-top: 3%;
+        width: 60%;
+    }
+    .centrale form {
+        margin: auto;
+        width: 75%;
+    }
+    .centrale fieldset {
+        background-color: rgb(247, 247, 247);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+    }
+    .centrale fieldset:hover {
+        box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7) inset;
+    }
+    .centrale legend {
+        padding: 0 10px;
+        color: #237dac;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+    }
+    fieldset label {
+        background-color: #09c;
+        color: #fff;
+        display: inline-block;
+        width: 39%;
+        float: left;
+        padding: 1% 1%;
+        margin-right: 4%;
+        text-align: right;
+        letter-spacing: 1px;
+    }
+    .centrale label:not(pas_de_style),
+    .centrale input {
+        border-radius: 3px;
+    }
+    .centrale input,
+    .centrale select {
+        color: #414a51;
+        padding: 1% 1% 0;
+        font-size: 14px;
+        margin-left: 1%;
+        width: 48%;
+        border: 1px solid #ccc;
+        transition: all 0.25s linear;
+    }
+    .centrale input:focus,
+    .centrale select:focus {
+        width: 39%;
+        box-shadow: 0 0 5px #6495ED;
+    }
+    .centrale input[type="submit"],
+    input[type="reset"],
+    input[type="button"] {
+        width: 23%;
+        background-color: #09c;
+        color: #fff;
+        letter-spacing: 1px;
+        transition: all 0.2s linear;
+        margin-bottom: 20px;
+        border: 1px solid #ddeeff;
+    }
+    .centrale input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover {
+        background-color: #87cefa;
+        color: #414a51;
+        box-shadow: 0 0 5px #6495ED;
+    }
+    .centrale input[type="number"] {
+        appearance: textfield;
+        -webkit-appearance: textfield;
+    }
+    input:not([type="submit"]):invalid {
+        box-shadow: 0 0 5px #6495ED;
+        background: url("./rouge3.png") right no-repeat;
+        vertical-align: middle;
+    }
+    input:not([type="submit"]):valid {
+        box-shadow: 0 0 5px #6495ED;
+        background: url("./vert3.png") right no-repeat;
+        vertical-align: middle;
+    }
+    footer {
+        margin-top: 5%;
+    }
+}

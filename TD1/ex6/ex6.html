@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>page vide</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Deja membre</legend>
+            <label for="login">Login </label>
+            <input type="text" placeholder="saisir votre login" id="login"><br>
+            <label for="Mdp">Mot de passe </label>
+            <input type="text" placeholder="saisir votre mdp" id="Mdp"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nouveau membre</legend>
+            <label for="Nom">Nom </label>
+            <input type="text" id="Nom"><br>
+            <label for="Prenom">Prenom </label>
+            <input type="text" id="Prenom"><br>
+            <label for="homme">Homme </label>
+            <input type="radio" name="sexe" value="choix1" id="homme">
+            <label for="femme">Femme </label>
+            <input type="radio" name="sexe" value="choix2" id="femme"><br>
+            <label for="CP">Code postal </label>
+            <input type="number" id="CP" value="45100" step="10"><br>
+            <label for="Profession">Profession </label>
+            <input list="prof" id="Profession" />
+            <datalist id="prof">
+				<option value="Cadre">
+				<option value="manuel">
+				<option value="sans profession">
+				<option value="retraite">
+				<option value="etudiant">
+			</datalist><br>
+            <label for="net">Comment avez vous connu notre site </label>
+            <select size="1" id="net">
+				<option>par le net</option>
+				<option>net</option>
+				<option>ami</option>
+				<option>pub</option>
+				<option>courrier</option>
+			</select><br>
+
+            <label for="comp">Informations complementaires </label>
+            <textarea id="comp" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="submit" name="Envoyer" formaction="traitement.html" formtarget="_blank" formmethod="POST">
+        <input type="submit" formaction="test.html" formtarget="_blank" formmethod="POST">
+        <input type="reset" name="Effacer">
+    </form>
+</body>
+
+</html>
